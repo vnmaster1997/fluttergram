@@ -3,8 +3,11 @@ import 'image_post.dart';
 import 'dart:async';
 import 'main.dart';
 import 'dart:io';
+// import 'dart:html'; 
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:http/http.dart' as http;
+// import 'package:universal_io/io.dart';
 
 class Feed extends StatefulWidget {
   _Feed createState() => _Feed();
@@ -82,6 +85,14 @@ class _Feed extends State<Feed> with AutomaticKeepAliveClientMixin<Feed> {
     String userId = googleSignIn.currentUser.id.toString();
     var url =
         'https://us-central1-fluttergram-5d836.cloudfunctions.net/getFeed?uid=' + userId;
+
+    // final res = await http.get("https://dog.ceo/api/breeds/image/random");
+    // if (res.statusCode == 200) {
+    //       var v = json.decode(res.body);
+    //       setState(() {
+    //         imageUrl = v['message'];
+    //       });
+    // }
     var httpClient = HttpClient();
 
     List<ImagePost> listOfPosts;

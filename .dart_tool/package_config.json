@@ -356,6 +356,12 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "universal_io",
+      "rootUri": "file:///C:/Users/namnv/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/universal_io-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "uuid",
       "rootUri": "file:///C:/Users/namnv/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/uuid-2.0.4",
       "packageUri": "lib/",
@@ -374,12 +380,18 @@
       "languageVersion": "2.7"
     },
     {
+      "name": "zone_local",
+      "rootUri": "file:///C:/Users/namnv/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/zone_local-0.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
       "name": "Fluttergram",
       "rootUri": "../",
       "packageUri": "lib/"
     }
   ],
-  "generated": "2020-10-14T04:38:06.234783Z",
+  "generated": "2020-10-14T09:58:55.018189Z",
   "generator": "pub",
   "generatorVersion": "2.11.0-213.0.dev"
 }
